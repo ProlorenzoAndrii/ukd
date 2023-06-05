@@ -12,13 +12,9 @@ Educational project for the course "Principles of Development Using Modern Techn
 
 `docker-compose up`
 
-3. Change dir to django_project
+3. Run migration:
 
-`cd ./django_project`
-
-4. Run migration:
-
-`python manage.py migrate`
+`docker-compose run web python manage.py migratee`
 
 5. Access the application at `http://localhost:8000/`.
 
