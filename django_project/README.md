@@ -8,13 +8,13 @@ Educational project for the course "Principles of Development Using Modern Techn
 
 `git clone https://github.com/ProlorenzoAndrii/ukd.git`
 
+2. Run docker-compose:
+
+`docker-compose up`
+
 3. Change dir to django_project
 
 `cd ./django_project`
-
-3. Run docker-compose:
-
-`docker-compose up`
 
 4. Run migration:
 
