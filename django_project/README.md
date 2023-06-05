@@ -14,7 +14,7 @@ Educational project for the course "Principles of Development Using Modern Techn
 
 3. Run migration:
 
-`docker-compose run web python manage.py migratee`
+`docker-compose run web python manage.py migrate`
 
 5. Access the application at `http://localhost:8000/`.
 
