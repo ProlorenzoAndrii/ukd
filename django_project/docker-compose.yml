@@ -1,25 +1,3 @@
-#version: '3.7'
-#services:
-#  app:
-#    build: .
-#    ports:
-#      - 8000:8000
-#    depends_on:
-#      - db
-#
-#  db:
-#    image: postgres:latest
-#    container_name: postgres_cont
-#    environment:
-#      POSTGRES_USER: mydatabaseuser
-#      POSTGRES_PASSWORD: mypassword
-#      POSTGRES_DB: mydatabase
-#      DOWNLOAD_DB: true
-#    volumes:
-#      - ./.pgpass:/root/.pgpass
-#    ports:
-#      - "5432:5432"
-
 version: '3'
 services:
   db:
